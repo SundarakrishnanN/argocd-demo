@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: sundar5/cbr-demo:v2   # ← this is what you'll change in the live demo
+        image: sundar5/cbr-demo:v1   # ← this is what you'll change in the live demo
         ports:
         - containerPort: 5000
